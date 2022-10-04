@@ -3,7 +3,9 @@ namespace BaltaSystem.ContentContext
 {
     public class Lecture // aula
     {
-        public int Order { get; set; } // ordem das aulas
+        public int Ordem { get; set; } // ordem das aulas
         public string Title { get; set; }
+        public int DurationInMinutes { get; set; }
+        public Enums.EContentLevel Level { get; set; }
     }
 }
