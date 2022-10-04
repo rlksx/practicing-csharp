@@ -8,7 +8,8 @@ namespace BaltaSystem.ContentContext
         public int DurationInMinutes { get; set; }
         public Enums.EContentLevel Level { get; set; }
 
-        public Course()
+        public Course(string title, string url)
+            : base(title, url)
         {
             Modules = new List<Module>();
         }
