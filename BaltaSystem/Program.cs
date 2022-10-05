@@ -31,9 +31,9 @@ namespace BaltaSystem
 
             // careers
             var careerDotnet = new ContentContext.Career("Especialista .NET", "especialista-dotnet");
-            var careerItem02 = new ContentContext.CareerItem(2, "Começando com C#", "", courseOOP);
-            var careerItem01 = new ContentContext.CareerItem(1, "Introdução da Carreira", "", courseCsharp);
-            var careerItem03 = new ContentContext.CareerItem(3, "Introdução da OOP", "", courseDotnet);
+            var careerItem02 = new ContentContext.CareerItem(2, "Começando com C#", "", null);
+            var careerItem01 = new ContentContext.CareerItem(1, "Introdução da Carreira", "", null);
+            var careerItem03 = new ContentContext.CareerItem(3, "Introdução da OOP", "", null);
             careerDotnet.Items.Add(careerItem02);
             careerDotnet.Items.Add(careerItem01);
             careerDotnet.Items.Add(careerItem03);
@@ -47,8 +47,6 @@ namespace BaltaSystem
                 foreach (var item in career.Items.OrderBy(x => x.Order))
                 {
                     Console.WriteLine($"{item.Order} - {item.Title}");
-                    Console.WriteLine(item.Course.Title);
-                    Console.WriteLine(item.Course.Level);
                 }
             }
 
