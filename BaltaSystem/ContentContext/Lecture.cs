@@ -1,7 +1,7 @@
 using System;
 namespace BaltaSystem.ContentContext
 {
-    public class Lecture // aula
+    public class Lecture : Base // aula
     {
         public int Ordem { get; set; } // ordem das aulas
         public string Title { get; set; }

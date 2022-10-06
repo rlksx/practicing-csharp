@@ -1,6 +1,6 @@
 namespace BaltaSystem.ContentContext
 {
-    public class Module // modulos da aula
+    public class Module : Base // modulos da aula
     {
         public int Order { get; set; } // Ordem do mosulo
         public string Title { get; set; }

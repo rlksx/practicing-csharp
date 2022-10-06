@@ -1,10 +1,8 @@
-using System;
 namespace BaltaSystem.ContentContext
 {
-    public abstract class Content
+    public abstract class Content : Base
     // superclasse abstrata
     {
-        public Guid Id { get; set; }
         // Guid => Indentificador Unico Global
         public string Title { get; set; }  
         public string Url { get; set; }
@@ -13,7 +11,6 @@ namespace BaltaSystem.ContentContext
         {
             this.Title = title;
             this.Url = url;
-            Id = Guid.NewGuid(); // Gerando Guid
         }
     }
 } 
