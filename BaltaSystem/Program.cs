@@ -1,6 +1,7 @@
 ﻿using System;
 using BaltaSystem.ContentContext;
 using BaltaSystem.NotificationContext;
+using BaltaSystem.SubscriptionContext;
 
 // flunt notifications
 
@@ -62,6 +63,11 @@ namespace BaltaSystem
                 }
             }
 
+            // students
+            var payPalSubscription = new PayPalSubscription();
+            var student =  new Student();
+            student.CreateSubscription(payPalSubscription);
+
         }
     }
-}
+} 
