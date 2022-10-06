@@ -8,6 +8,9 @@ namespace BaltaSystem.ContentContext
             this.Title = title;
             this.Description = description;
             this.Course = course;
+
+            if (course == null)
+                throw new System.Exception("O curso não pode ser nulo");
         }
 
         public int Order { get; set; }
