@@ -1,3 +1,5 @@
+using BaltaSystem.ShareContext;
+
 namespace BaltaSystem.ContentContext
 {
     public abstract class Content : Base

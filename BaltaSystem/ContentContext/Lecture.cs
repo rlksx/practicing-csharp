@@ -1,4 +1,6 @@
 using System;
+using BaltaSystem.ShareContext;
+
 namespace BaltaSystem.ContentContext
 {
     public class Lecture : Base // aula

@@ -1,4 +1,4 @@
-namespace BaltaSystem.ContentContext
+namespace BaltaSystem.ShareContext
 {
     public abstract class Base : NotificationContext.Notifiable
     {
@@ -9,4 +9,4 @@ namespace BaltaSystem.ContentContext
             Id = Guid.NewGuid(); // Gerando Guid
         }
     }
-} 
+}  

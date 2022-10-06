@@ -1,3 +1,5 @@
+using BaltaSystem.ShareContext;
+
 namespace BaltaSystem.ContentContext
 {
     public class Module : Base // modulos da aula

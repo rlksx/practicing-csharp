@@ -2,6 +2,8 @@
 using BaltaSystem.ContentContext;
 using BaltaSystem.NotificationContext;
 
+// flunt notifications
+
 namespace BaltaSystem
 {
     class Program
