@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "ar1K6keWeQcy8bVrdn72lGn2NgoOLWos/XyISWpGr0pjgslRt+C6oEoWRv+1eaprAu7OO4o51yi+WAsoH1MIBw==",
+  "success": true,
+  "projectFilePath": "/home/rlksx/www/C#/practicing-csharp/simple-bank-system/simple-bank-system.csproj",
+  "expectedPackageFiles": [
+    "/home/rlksx/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

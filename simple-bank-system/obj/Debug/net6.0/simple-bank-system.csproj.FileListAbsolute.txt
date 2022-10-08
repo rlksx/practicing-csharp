@@ -1,0 +1,15 @@
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/bin/Debug/net6.0/simple-bank-system
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/bin/Debug/net6.0/simple-bank-system.deps.json
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/bin/Debug/net6.0/simple-bank-system.runtimeconfig.json
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/bin/Debug/net6.0/simple-bank-system.dll
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/bin/Debug/net6.0/ref/simple-bank-system.dll
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/bin/Debug/net6.0/simple-bank-system.pdb
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/simple-bank-system.csproj.AssemblyReference.cache
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/simple-bank-system.GeneratedMSBuildEditorConfig.editorconfig
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/simple-bank-system.AssemblyInfoInputs.cache
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/simple-bank-system.AssemblyInfo.cs
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/simple-bank-system.csproj.CoreCompileInputs.cache
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/simple-bank-system.dll
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/ref/simple-bank-system.dll
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/simple-bank-system.pdb
+/home/rlksx/www/C#/practicing-csharp/simple-bank-system/obj/Debug/net6.0/simple-bank-system.genruntimeconfig.cache
