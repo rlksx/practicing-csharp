@@ -1,0 +1,15 @@
+/home/rlksx/Codes/Csharp/fibonacci-debug/bin/Debug/net6.0/fibonacci-debug
+/home/rlksx/Codes/Csharp/fibonacci-debug/bin/Debug/net6.0/fibonacci-debug.deps.json
+/home/rlksx/Codes/Csharp/fibonacci-debug/bin/Debug/net6.0/fibonacci-debug.runtimeconfig.json
+/home/rlksx/Codes/Csharp/fibonacci-debug/bin/Debug/net6.0/fibonacci-debug.dll
+/home/rlksx/Codes/Csharp/fibonacci-debug/bin/Debug/net6.0/ref/fibonacci-debug.dll
+/home/rlksx/Codes/Csharp/fibonacci-debug/bin/Debug/net6.0/fibonacci-debug.pdb
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/fibonacci-debug.csproj.AssemblyReference.cache
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/fibonacci-debug.GeneratedMSBuildEditorConfig.editorconfig
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/fibonacci-debug.AssemblyInfoInputs.cache
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/fibonacci-debug.AssemblyInfo.cs
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/fibonacci-debug.csproj.CoreCompileInputs.cache
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/fibonacci-debug.dll
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/ref/fibonacci-debug.dll
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/fibonacci-debug.pdb
+/home/rlksx/Codes/Csharp/fibonacci-debug/obj/Debug/net6.0/fibonacci-debug.genruntimeconfig.cache
