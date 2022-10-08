@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "aXy/nr1q8LniTr36tZs+O2kQpwCqy6wlJpiQ58EpNiXSxjUbVGzMz3nXOO5chLgMzirH72029mdA1xyaGQBRxw==",
+  "success": true,
+  "projectFilePath": "/home/rlksx/www/C#/system-io/system-io.csproj",
+  "expectedPackageFiles": [
+    "/home/rlksx/.nuget/packages/microsoft.aspnetcore.app.ref/6.0.9/microsoft.aspnetcore.app.ref.6.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}
