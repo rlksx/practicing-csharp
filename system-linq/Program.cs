@@ -24,6 +24,19 @@ namespace system_linq {
                 new Categoria{Id = 2, Status = true, Nome = "Alimentos"},
                 new Categoria{Id = 3, Status = true, Nome = "Vestuario"}
             };
+
+            // criar consulta linq
+            
+            /* selecinando todos os produtos, sem filtros */
+            var resultado1 = from produto in listaProdutos select produto;
+            /* filtrando resultado */ /* SQL sintaxe kkk */
+            var resultado2 = from produto in listaProdutos where produto.Valor > 150 select produto;
+
+            // executar a consulta
+            foreach (var item in resultado2)
+            {
+                Console.WriteLine($"{item.Id} - {item.Nome} | {item.CategoriaId}");
+            }
         }
     }
 }
