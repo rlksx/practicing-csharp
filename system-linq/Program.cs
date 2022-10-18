@@ -64,10 +64,15 @@ namespace system_linq {
                 cat
             };
 
-            foreach (var item in result3)
+            var result4 = from prod in listaProdutos join cat in listCategoria on prod.CategoriaId equals cat.Id orderby cat.Id select new
+            {
+                prod,
+                cat
+
+            };
+
+            foreach (var item in result4)
                 Console.WriteLine($"Produto: {item.prod.Nome} | {item.cat.Nome}");
-
-
         }
     }
 }
