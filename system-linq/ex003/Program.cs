@@ -7,7 +7,8 @@ namespace system_linq {
         public static void Main(string[] args)
         {
             Console.Clear();
-            // fonte de 2
+
+            // fonte de dados
             var listaProdutos = new List<Produto>()
             {
                 new Produto{Id = 1, CategoriaId = 2, Nome = "Feijão", Status = true, Valor = 100},
@@ -32,13 +33,20 @@ namespace system_linq {
             result = result.OrderByDescending(x => x.Id);
             result = result.Reverse();
 
+
             var result2 = listaProdutos.Where( x => FiltrarProdutoPorValor(x) );
             /* filtrando */
             static bool FiltrarProdutoPorValor(Produto produto) => produto.Valor > 60;
 
-            foreach (var item in result2)
-                Console.WriteLine($"Id: {item.Id} - Nome: {item.Nome} R${item.Valor}");
+            // foreach (var item in result2)
+            //     // Console.WriteLine($"Id: {item.Id} - Nome: {item.Nome} R${item.Valor}");
             
+            /* Skip e Take */
+            var result3 = listaProdutos.Skip(3).Take(3);
+
+        foreach (var item in result3)
+            Console.WriteLine($"Id: {item.Id} - Nome: {item.Nome} - Valor: R${item.Valor}");
+
 
             Console.ReadKey();
         }
